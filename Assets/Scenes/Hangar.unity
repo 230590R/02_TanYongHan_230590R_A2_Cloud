@@ -3849,6 +3849,9 @@ MonoBehaviour:
   selectedItem: {fileID: 0}
   catalogueRegistry:
   - {fileID: 11400000, guid: 9bb49fdf50808c940966dc190728cae9, type: 2}
+  - {fileID: 11400000, guid: fd35d7ed5a5c66b478e2e722930fdbf0, type: 2}
+  - {fileID: 11400000, guid: fce698497f6d4a841bb4e165185870d3, type: 2}
+  - {fileID: 11400000, guid: 4dc364d97f4533b4ba447f399cfbe9d5, type: 2}
   cataloguePanel: {fileID: 2145264895}
   catalogueItemPrefab: {fileID: 8143223171858719021, guid: 63a32c475754e6a43873275f56dba9a9, type: 3}
   inventoryScroll: {fileID: 776872615}
