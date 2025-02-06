@@ -6,8 +6,15 @@
     <title>Unity WebGL Player | 02_TanYongHan_230590R_A2</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <!--link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Michroma&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1>Asteroids Deluxe Edition</h1>
+    <h2>By Tan Yong Han 230590R</h2>
+    <h2>Cloud Computing ICA2</h2>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -21,6 +28,12 @@
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">02_TanYongHan_230590R_A2</div>
+      </div>
+      <div id="Instructions">
+        <p>
+          WASD for controls.
+          Space to shoot.
+        </p>
       </div>
     </div>
     <script>
@@ -57,11 +70,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild.loader.js";
+      var loaderUrl = buildUrl + "/webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js",
-        codeUrl: buildUrl + "/WebBuild.wasm",
+        dataUrl: buildUrl + "/webgl.data",
+        frameworkUrl: buildUrl + "/webgl.framework.js",
+        codeUrl: buildUrl + "/webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NYP SDM GDT",
         productName: "02_TanYongHan_230590R_A2",
