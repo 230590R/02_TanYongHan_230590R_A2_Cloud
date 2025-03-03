@@ -95,7 +95,8 @@ public class PlayfabManager : MonoBehaviour {
 
   public static void ResetPassword(OnSuccessString OnSuccess, OnErrorString OnError, string email) {
     var request = new SendAccountRecoveryEmailRequest {
-      Email = email
+      Email = email,
+      TitleId = PlayFabSettings.TitleId
     };
 
 
